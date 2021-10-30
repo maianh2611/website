@@ -1,0 +1,278 @@
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display:block;
+}
+
+body{
+  background-color:white;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+header{
+    background-image: url(../image/neven-krcmarek-330546-unsplash.jpg);
+    background-size:contain;
+    background-position: center;
+    height:auto;
+    text-align:center;
+    margin-top: -1%;
+    width: auto;
+}
+ .logo{
+    height:100px;
+    width: 140px;
+    float: left;
+    position:absolute;
+    }
+.logo img{
+    height:90px;
+    width: auto;
+    margin-top: 3%;
+    }
+#sayHi{
+    width: 100%;
+    height: 500px;
+    margin-top: 10%;
+    text-align: center;
+}
+#sayHi h4{
+  font-family: 'Kanit', sans-serif;
+  color:  #33373b;
+  font-size: 150%;
+  margin-top: 1px;
+  height: 5px;
+}
+#sayHi h1{
+  font-family: 'Kanit', sans-serif;
+  color: #cd218b;
+  font-size: 350%;
+  width: 60%;
+  border-bottom: 4px solid;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1px;
+  margin-top: 1%\9;
+}
+#sayHi h2{
+  font-family: 'Kanit', sans-serif;
+    color:  #33373b;
+    font-size: 150%;
+    margin-top: 1px;
+    margin-top: -1%\9;
+}
+#sayHi img{
+  border-radius: 60%;
+  height: 200px;
+  width: auto;
+
+}
+
+ #menu{
+    background-color: #33373b;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    display: block;
+    }
+#menu ul{
+    font: 95% 'Kanit', sans-serif;
+    color:white;
+    font-weight:700;
+    list-style-type: none;
+    width: 45%;
+    margin-left: 10%;
+    float: right;
+    height: 20px;
+    text-align:right;
+    margin-top: 1%\9;
+    }
+#menu li {
+    list-style-type:none;
+    font-size: 15px;
+    width: auto;
+    height: 20px;
+    padding: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1%;
+    display: inline-block;
+    display: inline\9;
+    }
+  section{
+    background-color:white;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #myStory{
+    font-family: 'Kanit', sans-serif;
+    color: #cd218b;
+    margin-top: 2px;
+    width: 25%;
+    float: left;
+    display: inline\9;
+    margin-top: 1%\9;
+    margin-left: 10%;
+    text-align: left;
+  }
+  #myStory p{
+    color: #33373b;
+    text-align: left;
+    height: 100%;
+  }
+  #introImage{
+    margin-top: 10%;
+    margin-left: 37%;
+    height: 300px;
+    width: 25%;
+    text-align: center;
+
+  }
+  #introImage img{
+    border: 2px solid #33373b;
+    height: 70%;
+    width: auto;
+  }
+  #information{
+    font-family: 'Kanit', sans-serif;
+    color: #cd218b;
+    margin-top: 2px;
+    width: 30%;
+    width: 40%\9;
+    margin-left: 70%;
+    margin-left: 29%\9;
+    margin-top: 1%\9;
+    position: absolute;
+    display: inline\9;
+  }
+  #information ul{
+    list-style-type: none;
+    color: #33373b;
+    width: 70%;
+    padding: 0;
+    text-align: left;
+    margin-left: 0.3%\9;
+
+  }
+  #information li {
+      list-style-type:none;
+      margin-top: 6%;
+      margin-top: 2%\9;
+    }
+    #iconSocial{
+        height: auto;
+    }
+    #iconSocial ul{
+        list-style-type: none;
+        text-align: left;
+        width: auto;
+    }
+    #iconSocial li{
+        list-style-type: none;
+        display: inline-block;
+        display: inline\9;
+        padding: 1%;
+        margin-top: 4%;
+        margin-left: 6%;
+        padding: 0 \9;
+        margin-left: 1% \9;
+    }
+    #iconSocial li img{
+      height :40px;
+      width:auto;
+    }
+footer{
+  background-color:#201f1f;
+  text-align:center;
+  width: auto;
+  margin-top:15%;
+}
+#menuFooter{
+  width: 100%;
+  text-align: center;
+  height: 15%;
+  margin-top: 10%;
+}
+#menuFooter ul{
+  padding:0;
+  font: 95% 'Kanit', sans-serif;
+  color:white;
+  font-weight:700;
+  padding-top: 2%\9;
+  margin-left:27.5%;
+  margin-right:27.5%;
+  list-style-type: none;
+  width: 45%;
+  height: 40px;
+  text-align:center;
+}
+#menuFooter li{
+  list-style-type:none;
+  display: inline-block;
+  display: inline\9;
+  font-size: 17px;
+  width: auto;
+  height: 40px;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top:5%;
+}
+#iconSocialFooter{
+    height: auto;
+    width:100%;
+    margin-top:2%;
+    text-align:center;
+}
+#iconSocialFooter ul{
+    padding-left: 0;
+    list-style-type: none;
+    margin-left:32%;
+    margin-right:32%;
+    width: 35%;
+    text-align:center;
+
+}
+#iconSocialFooter li{
+    list-style-type: none;
+    display: inline-block;
+    display: inline\9;
+    text-align:center;
+    margin-right:2.5%;
+    margin-left:2.5%;
+    padding-left: 2px;
+    padding-right:2px;
+}
+#iconSocialFooter li img{
+  height :40px;
+  width:auto;
+}
+#logoFooter{
+  height:100px;
+  width: 20%;
+  margin-top: 1px;
+  text-align:center;
+  margin-left:40%;
+  margin-right:40%;
+}
+#logoFooter img{
+  height:100%;
+  width: auto;
+  margin-top: 1%;
+}
+hr{
+  width:70%;
+ }
+#copyRights{
+  width: 100%;
+  text-align:center;
+  height: 10%;
+  font-family: 'Kanit', sans-serif;
+  color:  #33373b;
+  padding-bottom:2.5%;
+  padding-top:2.5%;
+}

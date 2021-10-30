@@ -1,0 +1,279 @@
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+   display:block;
+}
+body{
+  background-color:white;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+header{
+background-image:url(../image/neven-krcmarek-330546-unsplash.jpg);
+background-size: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+text-align:center;
+height: auto;
+margin-top: -1%;
+width: 100%;
+}
+ .logo{
+    height:100px;
+    width: 140px;
+    float: left;
+    position:absolute;
+    }
+.logo img{
+    height:90px;
+    width: auto;
+    margin-top: 3%;
+    }
+
+ #menu{
+    background-color: #33373b;
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    display: block;
+    }
+#menu ul{
+    font: 95% 'Kanit', sans-serif;
+    color:white;
+    font-weight:700;
+    list-style-type: none;
+    width: 45%;
+    margin-left: 30%;
+    float: right;
+    height: 20px;
+    text-align:right;
+    margin-top: 1.5%\9; /* IE 8 and below */
+    }
+#menu li {
+    list-style-type:none;
+    font-size: 15px;
+    width: auto;
+    height: 20px;
+    padding: 2px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 1%;
+    display: inline-block /*standard*/;
+    display: inline\9; /* IE 8 and below */
+    }
+    #ddPic{
+        width: 100%;
+        height: 250px;
+        margin-top: 5%;
+        text-align: center;
+    }
+    #ddPic img{
+      border-radius: 60%;
+      height: 200px;
+      width: auto;
+    }
+
+section{
+    width: 90%;
+    text-align:center;
+    margin-top: 10%;
+    margin-left:8%;
+    margin-right:8%;
+  }
+  #container{
+    background-color: lightpink;
+    padding: 1%;
+    margin-top: 1%;
+    width:90%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #cd218b;
+
+  }
+  #img1{
+    width: 100px/*11.5%*/;
+    -moz-user-select: none;
+    position: absolute;
+    left: 30%;
+    top:5%;
+    background:white;
+    height: 100px;
+    padding:0;
+    border:6px solid #33373b;
+  }
+  #img2{
+    width: 100px;
+    -moz-user-select: none;
+    background:white;
+    height:100px;
+    position:absolute;
+    padding:0;
+    left: 5%;
+    top: 11%;
+    border:6px solid #33373b;
+  }
+
+  #img3{
+    width:100px;
+    -moz-user-select: none;
+    background:white;
+    height:100px;
+    padding:0;
+    position:absolute;
+    left: 17%;
+    top: 4%;
+    border:6px solid #33373b;
+  }
+  #img4{
+    width:100px;
+    -moz-user-select: none;
+    background:white;
+    height:100px;
+    position:absolute;
+    left: 12%;
+    top: 4%;
+    padding:0;
+    border:6px solid #33373b;
+  }
+  #img5{
+    width:120px;
+    -moz-user-select: none;
+    position:absolute;
+    background:white;
+    height:100px;
+    padding:0;
+    left: 2%;
+    top: 9%;
+    border:6px solid #33373b;
+  }
+  #img6{
+    width:117px;
+    -moz-user-select: none;
+    position:absolute;
+    left: 9%;
+    top: 10%;
+    background:white;
+    height:100px;
+    padding:0;
+    border:6px solid #33373b;
+  }
+  #img7{
+    width:100px;
+    -moz-user-select: none;
+    position:absolute;
+    left: 30%;
+    top: 10%;
+    background:white;
+    height:100px;
+    padding:0;
+    border:6px solid #33373b;
+  }
+  #img8{
+    width:120px;
+    -moz-user-select: none;
+    height:100px;
+    background:white;
+    top:12%;
+    left:32%;
+    position:absolute;
+    padding:0;
+    border:6px solid #33373b;
+  }
+
+  footer{
+    background-color:#201f1f;
+    height:auto;
+    text-align:center;
+    width: 100%;
+    margin-top:5%;
+  }
+  #menuFooter{
+    width: 100%;
+    text-align: center;
+    height: 15%;
+    margin-top: 10%;
+  }
+  #menuFooter ul{
+    padding:0;
+    padding-top:1%\9;
+    font: 95% 'Kanit', sans-serif;
+    color:white;
+    font-weight:700;
+    margin-left:27.5%;
+    margin-right:27.5%;
+    list-style-type: none;
+    width: 45%;
+    height: 40px;
+    text-align:center;
+  }
+  #menuFooter li{
+    list-style-type:none;
+    font-size: 17px;
+    width: auto;
+    height: 40px;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    margin-top:5%;
+    display: inline-block;
+    display: inline\9;
+  }
+  #iconSocialFooter{
+      height: auto;
+      width:100%;
+      margin-top:2%;
+      text-align:center;
+  }
+  #iconSocialFooter ul{
+      padding-left: 0;
+      list-style-type: none;
+      margin-left:32%;
+      margin-right:32%;
+      width: 35%;
+      text-align:center;
+
+  }
+  #iconSocialFooter li{
+      list-style-type: none;
+      display: inline-block;
+      display: inline\9;
+      text-align:center;
+      margin-right:2.5%;
+      margin-left:2.5%;
+      padding-left: 2px;
+      padding-right:2px;
+  }
+  #iconSocialFooter li img{
+    height :40px;
+    width:auto;
+  }
+  #logoFooter{
+    height:100px;
+    width: 20%;
+    margin-top: 1px;
+    text-align:center;
+    margin-left:40%;
+    margin-right:40%;
+  }
+  #logoFooter img{
+      height:100%;
+      width: auto;
+      margin-top: 1%;
+  }
+  hr{
+    width:70%;
+   }
+  #copyRights{
+    width: 100%;
+    text-align:center;
+    height: 10%;
+    font-family: 'Kanit', sans-serif;
+    color:  #33373b;
+    padding-bottom:2.5%;
+    padding-top:2.5%;
+  }
